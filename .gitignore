@@ -1,0 +1,13 @@
+.vscode
+.env
+**/.env.*
+node_modules
+**/node_modules
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
