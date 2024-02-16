@@ -18,14 +18,9 @@
   "overrides": [],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-      "ecmaVersion": "latest",
-      "ecmaFeatures": {
-          "jsx": true
-      },
-      "sourceType": "module",
-      "project": [
-          "**/tsconfig.json"
-      ]
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": ["**/tsconfig.json", "**/tsconfig.node.json"]
   },
   "plugins": [
       "react",
