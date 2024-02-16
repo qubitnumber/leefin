@@ -10,7 +10,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api/v1': 'https://leefin-backend.vercel.app',
+      '/api': 'https://leefin-backend.vercel.app',
     },
   },
 })
